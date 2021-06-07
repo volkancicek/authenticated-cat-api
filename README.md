@@ -23,6 +23,9 @@ https://localhost:5001/swagger/
 
 (with IIS Express: https://localhost:44372/swagger )
 
+![image](https://user-images.githubusercontent.com/19646608/121062434-5d232080-c7c5-11eb-9b55-7721d19f006d.png)
+
+
 # Endpoints
 * GET  
 ​/cat​/random
