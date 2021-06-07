@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAAS", "CAAS\CAAS.csproj", "{8FB9B356-33F6-4258-9938-0E54B745CFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAAS.Tests", "CAAS.Tests\CAAS.Tests.csproj", "{A29997B2-7D6B-44BE-B7D0-9F6B343FE471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB9B356-33F6-4258-9938-0E54B745CFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB9B356-33F6-4258-9938-0E54B745CFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB9B356-33F6-4258-9938-0E54B745CFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB9B356-33F6-4258-9938-0E54B745CFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29997B2-7D6B-44BE-B7D0-9F6B343FE471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29997B2-7D6B-44BE-B7D0-9F6B343FE471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29997B2-7D6B-44BE-B7D0-9F6B343FE471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29997B2-7D6B-44BE-B7D0-9F6B343FE471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E12AAA91-1DDC-4DD2-BFB6-7D3E500581B5}
+	EndGlobalSection
+EndGlobal
