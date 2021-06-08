@@ -11,12 +11,17 @@ A web API with ASP.NET Core 3.1.
 
 * With .net Command
 
-    Run the following commands at the directory `src/CAAS` :
+    Run the following commands at the directory `/src/CAAS` :
 
     `dotnet build`
 
     `dotnet run`
 
+# Unit Tests
+* Run the following command at the directory `/src/CAAS.Tests` :
+
+    `dotnet test`
+    
 # Swagger UI
 Basic information about the API endpoints can be found at the Swagger UI.
 https://localhost:5001/swagger/
