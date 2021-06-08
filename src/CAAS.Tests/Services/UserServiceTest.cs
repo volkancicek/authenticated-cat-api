@@ -42,9 +42,11 @@ namespace CAAS.Tests.Services
         [Fact]
         public void Should_not_create_user_with_existing_user_name()
         {
-            var user = new User() { Id = 10, Name = "testName", SurName = "testSurname", Username = "FirstUser", PasswordHash = null, PasswordSalt = null };
+            var user1 = new User() { Id = 11, Name = "testName", SurName = "testSurname", Username = "DuplicatedUserName", PasswordHash = null, PasswordSalt = null };
+            _userService.Create(user1, "password");
+            var user2 = new User() { Id = 12, Name = "testName", SurName = "testSurname", Username = "DuplicatedUserName", PasswordHash = null, PasswordSalt = null };
 
-            Assert.Throws<Exception>(() => _userService.Create(user, ""));
+            Assert.Throws<Exception>(() => _userService.Create(user2, "password"));
         }
 
         [Fact]

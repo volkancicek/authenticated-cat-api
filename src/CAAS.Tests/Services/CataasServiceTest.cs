@@ -34,7 +34,6 @@ namespace CAAS.Tests.Services
                         Content = new ByteArrayContent(expectedBytes),
                     });
             var mockClient = new HttpClient(mockHttpMessageHandler.Object);
-            var mockImage = new Mock<Image>(null, null, null, null);
             _mockClientFactory.Setup(c => c.CreateClient(It.IsAny<string>())).Returns(mockClient);
 
             var result = _cataasService.GetRandomCatImage();
